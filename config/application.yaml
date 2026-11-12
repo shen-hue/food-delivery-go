@@ -1,0 +1,24 @@
+# 对应 Java 版的 application.yml
+server:
+  port: 8080
+
+sky:
+  jwt:
+    # 管理端员工jwt令牌
+    admin-secret-key: itcast
+    admin-ttl: 7200000
+    admin-token-name: token
+    # 用户端微信用户jwt令牌 —— 留给你自己实现微信登录时补充（对应 Java 版中的 user-* 配置）
+    # user-secret-key: itcast
+    # user-ttl: 7200000
+    # user-token-name: authentication
+  # 阿里云OSS配置 —— 实现文件上传功能时补充（对应 Java 版中的 sky.alioss）
+  # alioss:
+  #   endpoint: ${your endpoint}
+  #   access-key-id: ${your accessKeyId}
+  #   access-key-secret: ${your accessKeySecret}
+  #   bucket-name: ${your bucketName}
+  # 微信配置 —— 实现微信登录/支付时补充（对应 Java 版中的 sky.wechat）
+  # wechat:
+  #   appid: ${your appid}
+  #   secret: ${your secret}

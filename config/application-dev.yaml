@@ -1,0 +1,9 @@
+# 对应 Java 版的 application-dev.yml（开发环境配置）
+sky:
+  datasource:
+    # 注意：Go 版使用 PostgreSQL（pgx 驱动），不再是 MySQL
+    host: localhost
+    port: 5432
+    database: sky_take_out
+    username: postgres
+    password: postgres
