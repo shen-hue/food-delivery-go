@@ -1,0 +1,176 @@
+.gitignore
+  h_60e332e94dba55 1-26
+README.md
+  h_60e332e94dba55 1-157
+cmd/server/main.go
+  h_60e332e94dba55 1-78
+config/application-dev.yaml
+  h_60e332e94dba55 1-9
+config/application.yaml
+  h_60e332e94dba55 1-24
+go.mod
+  h_60e332e94dba55 1-22
+go.sum
+  h_60e332e94dba55 1-43
+internal/common/basecontext/base_context.go
+  h_60e332e94dba55 1-30
+internal/common/constant/jwt_claims.go
+  h_60e332e94dba55 1-10
+internal/common/constant/message.go
+  h_60e332e94dba55 1-24
+internal/common/constant/password.go
+  h_60e332e94dba55 1-4
+internal/common/constant/status.go
+  h_60e332e94dba55 1-7
+internal/common/enumeration/operation_type.go
+  h_60e332e94dba55 1-15
+internal/common/exception/exception.go
+  h_60e332e94dba55 1-60
+internal/common/jsonutil/datetime.go
+  h_60e332e94dba55 1-47
+internal/common/jsonutil/json.go
+  h_60e332e94dba55 1-26
+internal/common/properties/alioss.go
+  h_60e332e94dba55 1-11
+internal/common/properties/config.go
+  h_60e332e94dba55 1-85
+internal/common/properties/jwt.go
+  h_60e332e94dba55 1-13
+internal/common/properties/wechat.go
+  h_60e332e94dba55 1-16
+internal/common/result/page_result.go
+  h_60e332e94dba55 1-7
+internal/common/result/result.go
+  h_60e332e94dba55 1-29
+internal/common/utils/ali_oss.go
+  h_60e332e94dba55 1-70
+internal/common/utils/http_client.go
+  h_60e332e94dba55 1-75
+internal/common/utils/jwt.go
+  h_60e332e94dba55 1-48
+internal/pojo/dto/category.go
+  h_60e332e94dba55 1-9
+internal/pojo/dto/category_page_query.go
+  h_60e332e94dba55 1-9
+internal/pojo/dto/data_overview_query.go
+  h_60e332e94dba55 1-9
+internal/pojo/dto/dish.go
+  h_60e332e94dba55 1-15
+internal/pojo/dto/dish_page_query.go
+  h_60e332e94dba55 1-10
+internal/pojo/dto/employee.go
+  h_60e332e94dba55 1-11
+internal/pojo/dto/employee_login.go
+  h_60e332e94dba55 1-8
+internal/pojo/dto/employee_page_query.go
+  h_60e332e94dba55 1-11
+internal/pojo/dto/goods_sales.go
+  h_60e332e94dba55 1-7
+internal/pojo/dto/orders.go
+  h_60e332e94dba55 1-26
+internal/pojo/dto/orders_cancel.go
+  h_60e332e94dba55 1-7
+internal/pojo/dto/orders_confirm.go
+  h_60e332e94dba55 1-7
+internal/pojo/dto/orders_page_query.go
+  h_60e332e94dba55 1-15
+internal/pojo/dto/orders_payment.go
+  h_60e332e94dba55 1-7
+internal/pojo/dto/orders_rejection.go
+  h_60e332e94dba55 1-7
+internal/pojo/dto/orders_submit.go
+  h_60e332e94dba55 1-16
+internal/pojo/dto/password_edit.go
+  h_60e332e94dba55 1-8
+internal/pojo/dto/setmeal.go
+  h_60e332e94dba55 1-15
+internal/pojo/dto/setmeal_page_query.go
+  h_60e332e94dba55 1-10
+internal/pojo/dto/shopping_cart.go
+  h_60e332e94dba55 1-8
+internal/pojo/dto/user_login.go
+  h_60e332e94dba55 1-6
+internal/pojo/entity/address_book.go
+  h_60e332e94dba55 1-19
+internal/pojo/entity/category.go
+  h_60e332e94dba55 1-17
+internal/pojo/entity/dish.go
+  h_60e332e94dba55 1-18
+internal/pojo/entity/dish_flavor.go
+  h_60e332e94dba55 1-10
+internal/pojo/entity/employee.go
+  h_60e332e94dba55 1-27
+internal/pojo/entity/order_detail.go
+  h_60e332e94dba55 1-14
+internal/pojo/entity/orders.go
+  h_60e332e94dba55 1-48
+internal/pojo/entity/setmeal.go
+  h_60e332e94dba55 1-18
+internal/pojo/entity/setmeal_dish.go
+  h_60e332e94dba55 1-11
+internal/pojo/entity/shopping_cart.go
+  h_60e332e94dba55 1-17
+internal/pojo/entity/user.go
+  h_60e332e94dba55 1-16
+internal/pojo/vo/business_data.go
+  h_60e332e94dba55 1-10
+internal/pojo/vo/dish.go
+  h_60e332e94dba55 1-21
+internal/pojo/vo/dish_item.go
+  h_60e332e94dba55 1-9
+internal/pojo/vo/dish_overview.go
+  h_60e332e94dba55 1-7
+internal/pojo/vo/employee_login.go
+  h_60e332e94dba55 1-10
+internal/pojo/vo/order.go
+  h_60e332e94dba55 1-14
+internal/pojo/vo/order_overview.go
+  h_60e332e94dba55 1-10
+internal/pojo/vo/order_payment.go
+  h_60e332e94dba55 1-10
+internal/pojo/vo/order_report.go
+  h_60e332e94dba55 1-11
+internal/pojo/vo/order_statistics.go
+  h_60e332e94dba55 1-8
+internal/pojo/vo/order_submit.go
+  h_60e332e94dba55 1-11
+internal/pojo/vo/sales_top10_report.go
+  h_60e332e94dba55 1-7
+internal/pojo/vo/setmeal.go
+  h_60e332e94dba55 1-21
+internal/pojo/vo/setmeal_overview.go
+  h_60e332e94dba55 1-7
+internal/pojo/vo/turnover_report.go
+  h_60e332e94dba55 1-7
+internal/pojo/vo/user_login.go
+  h_60e332e94dba55 1-8
+internal/pojo/vo/user_report.go
+  h_60e332e94dba55 1-8
+internal/server/config/router.go
+  h_60e332e94dba55 1-50
+internal/server/controller/admin/employee_controller.go
+  h_60e332e94dba55 1-79
+internal/server/handler/global_exception_handler.go
+  h_60e332e94dba55 1-42
+internal/server/interceptor/jwt_token_admin_interceptor.go
+  h_60e332e94dba55 1-52
+internal/server/mapper/employee_mapper.go
+  h_60e332e94dba55 1-57
+internal/server/service/employee_service.go
+  h_60e332e94dba55 1-15
+internal/server/service/impl/employee_service_impl.go
+  h_60e332e94dba55 1-66
+sql/schema.sql
+  h_60e332e94dba55 1-183
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "81ca11f6c70a8f6b29a56af7b5df21a465215a56",
+  "prompts": {},
+  "humans": {
+    "h_60e332e94dba55": {
+      "author": "shen-hue <shenyelideyingzi@gmail.com>"
+    }
+  }
+}
